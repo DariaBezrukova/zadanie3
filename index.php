@@ -63,7 +63,7 @@ $powers = implode(',', $_POST['select']);
 
 $user = 'u47528';
 $pass = '9694962';
-$db = new PDO('mysql:host=localhost;dbname=u47502', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+$db = new PDO('mysql:host=localhost;dbname=u47528', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
 
 try {
